@@ -104,7 +104,7 @@ cd backend
 npm install
 npx prisma migrate dev --name init
 npm run db:seed
-npm run dev # Starts API backend on http://localhost:5001
+npm run dev # Starts API backend on http://social-connect-production-80fd.up.railway.app
 
 # Set up and run frontend
 cd ../frontend

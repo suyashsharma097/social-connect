@@ -2,8 +2,10 @@ import axios from 'axios';
 import { store } from '../store/store.js';
 import { updateAccessToken, logoutSuccess } from '../store/slices/authSlice.js';
 
+const API_URL = import.meta.env.VITE_API_URL || 'https://social-connect-production-80fd.up.railway.app/api/v1';
+
 const api = axios.create({
-  baseURL: 'https://social-connect-production-80fd.up.railway.app/api/v1',
+  baseURL: API_URL,
   headers: {
     'Content-Type': 'application/json',
   },
@@ -68,7 +70,7 @@ api.interceptors.response.use(
       }
 
       try {
-        const res = await axios.post('https://social-connect-production-80fd.up.railway.app/api/v1/auth/refresh', {
+        const res = await axios.post(`${API_URL}/auth/refresh`, {
           refreshToken,
         });
 

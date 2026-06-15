@@ -5,6 +5,11 @@ import { fetchStart, fetchEmployeesSuccess, fetchMastersSuccess, actionFailure }
 import api from '../services/api.js';
 import { Search, UserPlus, FileEdit, Trash2, ShieldAlert } from 'lucide-react';
 
+const getBaseUrl = () => {
+  const apiUrl = import.meta.env.VITE_API_URL || 'https://social-connect-production-80fd.up.railway.app/api/v1';
+  return apiUrl.replace(/\/api\/v1\/?$/, '');
+};
+
 const EmployeeList = () => {
   const { employees, total, page, totalPages, departments, loading } = useSelector((state) => state.employee);
   const { user } = useSelector((state) => state.auth);
@@ -163,7 +168,7 @@ const EmployeeList = () => {
                             height: '40px',
                             borderRadius: '50%',
                             background: 'var(--bg-tertiary)',
-                            backgroundImage: emp.profileImage ? `url(https://social-connect-production-80fd.up.railway.app${emp.profileImage})` : 'none',
+                            backgroundImage: emp.profileImage ? `url(${getBaseUrl()}${emp.profileImage})` : 'none',
                             backgroundSize: 'cover',
                             backgroundPosition: 'center',
                             display: 'flex',
