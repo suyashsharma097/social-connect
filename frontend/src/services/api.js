@@ -3,7 +3,7 @@ import { store } from '../store/store.js';
 import { updateAccessToken, logoutSuccess } from '../store/slices/authSlice.js';
 
 const api = axios.create({
-  baseURL: 'http://localhost:5001/api/v1',
+  baseURL: 'https://social-connect-production-80fd.up.railway.app/api/v1',
   headers: {
     'Content-Type': 'application/json',
   },
@@ -68,12 +68,12 @@ api.interceptors.response.use(
       }
 
       try {
-        const res = await axios.post('http://localhost:5001/api/v1/auth/refresh', {
+        const res = await axios.post('https://social-connect-production-80fd.up.railway.app/api/v1/auth/refresh', {
           refreshToken,
         });
 
         const { accessToken: newAccess, refreshToken: newRefresh } = res.data.data;
-        
+
         store.dispatch(updateAccessToken({
           accessToken: newAccess,
           refreshToken: newRefresh,
@@ -81,7 +81,7 @@ api.interceptors.response.use(
 
         processQueue(null, newAccess);
         originalRequest.headers.Authorization = `Bearer ${newAccess}`;
-        
+
         isRefreshing = false;
         return api(originalRequest);
       } catch (refreshError) {

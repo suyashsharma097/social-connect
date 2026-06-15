@@ -163,7 +163,7 @@ const EmployeeList = () => {
                             height: '40px',
                             borderRadius: '50%',
                             background: 'var(--bg-tertiary)',
-                            backgroundImage: emp.profileImage ? `url(http://localhost:5001${emp.profileImage})` : 'none',
+                            backgroundImage: emp.profileImage ? `url(https://social-connect-production-80fd.up.railway.app${emp.profileImage})` : 'none',
                             backgroundSize: 'cover',
                             backgroundPosition: 'center',
                             display: 'flex',
