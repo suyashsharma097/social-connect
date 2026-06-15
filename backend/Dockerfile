@@ -2,7 +2,8 @@
 # Build Stage
 # =========================
 FROM node:22-slim AS builder
-
+ARG CACHE_BUST=999
+RUN echo "BUILD VERSION ${CACHE_BUST}"
 WORKDIR /usr/src/app
 
 # Install dependencies
@@ -10,10 +11,11 @@ COPY package*.json ./
 RUN npm ci
 
 # Copy Prisma schema
-COPY prisma ./prisma/
+COPY prisma/schema.prisma ./prisma/schema.prisma
 
 # Force clean Prisma generation
 RUN rm -rf node_modules/.prisma
+
 RUN npx prisma generate --schema=./prisma/schema.prisma
 
 # Debug: show generated Prisma engine
