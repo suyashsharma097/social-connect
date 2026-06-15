@@ -35,6 +35,7 @@ COPY prisma ./prisma/
 COPY src ./src/
 
 ENV NODE_ENV=production
+ENV FORCE_REBUILD=2
 ENV PORT=5000
 
 EXPOSE 5000
