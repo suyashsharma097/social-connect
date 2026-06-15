@@ -157,3 +157,26 @@
 [2026-06-15 16:49:53:4953] [[35mhttp[39m]: [35mGET /api/v1/masters/skills[39m
 [2026-06-15 16:49:53:4953] [[35mhttp[39m]: [35mGET /api/v1/masters/departments[39m
 [2026-06-15 16:49:53:4953] [[35mhttp[39m]: [35mGET /api/v1/masters/skills[39m
+[2026-06-15 17:38:33:3833] [[35mhttp[39m]: [35mPOST /api/v1/auth/login[39m
+[2026-06-15 17:38:33:3833] [[32minfo[39m]: [32mUser login attempt for email: Suyash4316@gmail.com[39m
+[2026-06-15 17:38:33:3833] [[35mhttp[39m]: [35mGET /api/v1/dashboard/stats[39m
+[2026-06-15 17:38:33:3833] [[35mhttp[39m]: [35mGET /api/v1/dashboard/stats[39m
+[2026-06-15 17:39:29:3929] [[32minfo[39m]: [32mSMTP transporter configured.[39m
+[2026-06-15 17:39:29:3929] [[32minfo[39m]: [32mCron jobs scheduled successfully.[39m
+[2026-06-15 17:39:30:3930] [[32minfo[39m]: [32mServer is running in development mode on port 5001[39m
+[2026-06-15 17:39:30:3930] [[32minfo[39m]: [32mDatabase connected successfully.[39m
+[2026-06-15 17:39:42:3942] [[32minfo[39m]: [32mSMTP transporter configured.[39m
+[2026-06-15 17:39:42:3942] [[32minfo[39m]: [32mCron jobs scheduled successfully.[39m
+[2026-06-15 17:39:42:3942] [[32minfo[39m]: [32mServer is running in development mode on port 5001[39m
+[2026-06-15 17:39:42:3942] [[32minfo[39m]: [32mDatabase connected successfully.[39m
+[2026-06-15 17:51:20:5120] [[35mhttp[39m]: [35mPOST /api/v1/auth/login[39m
+[2026-06-15 17:51:20:5120] [[32minfo[39m]: [32mUser login attempt for email: Suyash4316@gmail.com[39m
+[2026-06-15 17:51:20:5120] [[35mhttp[39m]: [35mGET /api/v1/dashboard/stats[39m
+[2026-06-15 17:51:39:5139] [[35mhttp[39m]: [35mGET /api/v1/dashboard/stats[39m
+[2026-06-15 17:51:43:5143] [[35mhttp[39m]: [35mGET /api/v1/dashboard/stats[39m
+[2026-06-15 17:51:43:5143] [[35mhttp[39m]: [35mGET /api/v1/dashboard/stats[39m
+[2026-06-15 17:51:44:5144] [[35mhttp[39m]: [35mPOST /api/v1/auth/logout[39m
+[2026-06-15 19:08:38:838] [[32minfo[39m]: [32mSMTP transporter configured.[39m
+[2026-06-15 19:08:38:838] [[32minfo[39m]: [32mCron jobs scheduled successfully.[39m
+[2026-06-15 19:08:38:838] [[32minfo[39m]: [32mServer is running in development mode on port 5001[39m
+[2026-06-15 19:08:38:838] [[32minfo[39m]: [32mDatabase connected successfully.[39m
