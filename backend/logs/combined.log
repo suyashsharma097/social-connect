@@ -1,0 +1,159 @@
+[2026-06-15 14:32:45:3245] [[32minfo[39m]: [32mSMTP transporter configured.[39m
+[2026-06-15 14:32:45:3245] [[32minfo[39m]: [32mCron jobs scheduled successfully.[39m
+[2026-06-15 14:32:45:3245] [[32minfo[39m]: [32mServer is running in development mode on port 5001[39m
+[2026-06-15 14:32:45:3245] [[32minfo[39m]: [32mDatabase connected successfully.[39m
+[2026-06-15 14:34:02:342] [[35mhttp[39m]: [35mPOST /api/v1/auth/login[39m
+[2026-06-15 14:34:02:342] [[32minfo[39m]: [32mUser login attempt for email: admin@isoftzone-erp.com[39m
+[2026-06-15 14:35:46:3546] [[35mhttp[39m]: [35mPOST /api/v1/auth/register[39m
+[2026-06-15 14:35:46:3546] [[32minfo[39m]: [32mUser registration attempt for email: admin@isoftzone-erp.com[39m
+[2026-06-15 14:35:49:3549] [[31merror[39m]: [31mFailed to send email to admin@isoftzone-erp.com: Invalid login: 535 5.7.0 Invalid credentials[39m
+[2026-06-15 14:36:49:3649] [[35mhttp[39m]: [35mPOST /api/v1/auth/login[39m
+[2026-06-15 14:36:49:3649] [[32minfo[39m]: [32mUser login attempt for email: admin@isoftzone-erp.com[39m
+[2026-06-15 14:36:49:3649] [[35mhttp[39m]: [35mGET /api/v1/dashboard/stats[39m
+[2026-06-15 14:36:50:3650] [[35mhttp[39m]: [35mGET /api/v1/dashboard/stats[39m
+[2026-06-15 14:37:24:3724] [[35mhttp[39m]: [35mGET /api/v1/masters/departments[39m
+[2026-06-15 14:37:24:3724] [[35mhttp[39m]: [35mGET /api/v1/employees?page=1&limit=8&search=&departmentId=[39m
+[2026-06-15 14:37:24:3724] [[35mhttp[39m]: [35mGET /api/v1/masters/departments[39m
+[2026-06-15 14:37:24:3724] [[35mhttp[39m]: [35mGET /api/v1/employees?page=1&limit=8&search=&departmentId=[39m
+[2026-06-15 14:38:01:381] [[35mhttp[39m]: [35mGET /api/v1/masters/departments[39m
+[2026-06-15 14:38:01:381] [[35mhttp[39m]: [35mGET /api/v1/masters/skills[39m
+[2026-06-15 14:38:01:381] [[35mhttp[39m]: [35mGET /api/v1/masters/departments[39m
+[2026-06-15 14:38:01:381] [[35mhttp[39m]: [35mGET /api/v1/masters/skills[39m
+[2026-06-15 14:39:44:3944] [[35mhttp[39m]: [35mPOST /api/v1/employees[39m
+[2026-06-15 14:39:44:3944] [[32minfo[39m]: [32mCreating new employee profile.[39m
+[2026-06-15 14:39:44:3944] [[35mhttp[39m]: [35mGET /api/v1/masters/departments[39m
+[2026-06-15 14:39:44:3944] [[35mhttp[39m]: [35mGET /api/v1/employees?page=1&limit=8&search=&departmentId=[39m
+[2026-06-15 14:39:44:3944] [[35mhttp[39m]: [35mGET /api/v1/masters/departments[39m
+[2026-06-15 14:39:44:3944] [[35mhttp[39m]: [35mGET /api/v1/employees?page=1&limit=8&search=&departmentId=[39m
+[2026-06-15 14:45:16:4516] [[35mhttp[39m]: [35mGET /api/v1/masters/departments[39m
+[2026-06-15 14:45:16:4516] [[35mhttp[39m]: [35mGET /api/v1/masters/skills[39m
+[2026-06-15 14:45:16:4516] [[35mhttp[39m]: [35mGET /api/v1/masters/skills[39m
+[2026-06-15 14:45:16:4516] [[35mhttp[39m]: [35mGET /api/v1/masters/departments[39m
+[2026-06-15 14:45:27:4527] [[35mhttp[39m]: [35mGET /api/v1/dashboard/stats[39m
+[2026-06-15 14:45:27:4527] [[35mhttp[39m]: [35mGET /api/v1/dashboard/stats[39m
+[2026-06-15 14:45:34:4534] [[35mhttp[39m]: [35mGET /api/v1/masters/departments[39m
+[2026-06-15 14:45:34:4534] [[35mhttp[39m]: [35mGET /api/v1/employees?page=1&limit=8&search=&departmentId=[39m
+[2026-06-15 14:45:34:4534] [[35mhttp[39m]: [35mGET /api/v1/masters/departments[39m
+[2026-06-15 14:45:34:4534] [[35mhttp[39m]: [35mGET /api/v1/employees?page=1&limit=8&search=&departmentId=[39m
+[2026-06-15 14:45:36:4536] [[35mhttp[39m]: [35mGET /api/v1/leaves?page=1&limit=6&status=ALL[39m
+[2026-06-15 14:45:36:4536] [[35mhttp[39m]: [35mGET /api/v1/leaves?page=1&limit=6&status=ALL[39m
+[2026-06-15 14:45:37:4537] [[35mhttp[39m]: [35mGET /api/v1/assets?page=1&limit=8&status=ALL[39m
+[2026-06-15 14:45:37:4537] [[35mhttp[39m]: [35mGET /api/v1/assets?page=1&limit=8&status=ALL[39m
+[2026-06-15 14:45:39:4539] [[35mhttp[39m]: [35mGET /api/v1/dashboard/stats[39m
+[2026-06-15 14:45:39:4539] [[35mhttp[39m]: [35mGET /api/v1/dashboard/stats[39m
+[2026-06-15 14:47:09:479] [[35mhttp[39m]: [35mGET /api/v1/dashboard/stats[39m
+[2026-06-15 14:47:09:479] [[35mhttp[39m]: [35mGET /api/v1/dashboard/stats[39m
+[2026-06-15 14:48:36:4836] [[32minfo[39m]: [32mSMTP transporter configured.[39m
+[2026-06-15 14:48:36:4836] [[32minfo[39m]: [32mCron jobs scheduled successfully.[39m
+[2026-06-15 14:48:36:4836] [[32minfo[39m]: [32mServer is running in development mode on port 5001[39m
+[2026-06-15 14:48:36:4836] [[32minfo[39m]: [32mDatabase connected successfully.[39m
+[2026-06-15 14:48:46:4846] [[32minfo[39m]: [32mSMTP transporter configured.[39m
+[2026-06-15 14:48:46:4846] [[32minfo[39m]: [32mCron jobs scheduled successfully.[39m
+[2026-06-15 14:48:46:4846] [[32minfo[39m]: [32mServer is running in development mode on port 5001[39m
+[2026-06-15 14:48:46:4846] [[32minfo[39m]: [32mDatabase connected successfully.[39m
+[2026-06-15 14:48:51:4851] [[32minfo[39m]: [32mSMTP transporter configured.[39m
+[2026-06-15 14:48:51:4851] [[32minfo[39m]: [32mCron jobs scheduled successfully.[39m
+[2026-06-15 14:48:51:4851] [[32minfo[39m]: [32mServer is running in development mode on port 5001[39m
+[2026-06-15 14:48:51:4851] [[32minfo[39m]: [32mDatabase connected successfully.[39m
+[2026-06-15 14:48:52:4852] [[35mhttp[39m]: [35mGET /api/v1/dashboard/stats[39m
+[2026-06-15 14:48:52:4852] [[35mhttp[39m]: [35mGET /api/v1/dashboard/stats[39m
+[2026-06-15 14:48:55:4855] [[32minfo[39m]: [32mSMTP transporter configured.[39m
+[2026-06-15 14:48:55:4855] [[32minfo[39m]: [32mCron jobs scheduled successfully.[39m
+[2026-06-15 14:48:55:4855] [[32minfo[39m]: [32mServer is running in development mode on port 5001[39m
+[2026-06-15 14:48:55:4855] [[32minfo[39m]: [32mDatabase connected successfully.[39m
+[2026-06-15 14:49:00:490] [[32minfo[39m]: [32mSMTP transporter configured.[39m
+[2026-06-15 14:49:01:491] [[32minfo[39m]: [32mCron jobs scheduled successfully.[39m
+[2026-06-15 14:49:01:491] [[32minfo[39m]: [32mServer is running in development mode on port 5001[39m
+[2026-06-15 14:49:01:491] [[32minfo[39m]: [32mDatabase connected successfully.[39m
+[2026-06-15 14:49:32:4932] [[35mhttp[39m]: [35mGET /api/v1/dashboard/stats[39m
+[2026-06-15 14:49:32:4932] [[35mhttp[39m]: [35mGET /api/v1/dashboard/stats[39m
+[2026-06-15 14:49:32:4932] [[35mhttp[39m]: [35mPOST /api/v1/auth/refresh[39m
+[2026-06-15 14:49:51:4951] [[35mhttp[39m]: [35mPOST /api/v1/auth/register[39m
+[2026-06-15 14:49:51:4951] [[32minfo[39m]: [32mUser registration attempt for email: Suyash4316@gmail.com[39m
+[2026-06-15 14:49:53:4953] [[31merror[39m]: [31mFailed to send email to Suyash4316@gmail.com: Invalid login: 535 5.7.0 Invalid credentials[39m
+[2026-06-15 14:50:00:500] [[35mhttp[39m]: [35mPOST /api/v1/auth/login[39m
+[2026-06-15 14:50:00:500] [[32minfo[39m]: [32mUser login attempt for email: Suyash4316@gmail.com[39m
+[2026-06-15 14:50:00:500] [[35mhttp[39m]: [35mGET /api/v1/dashboard/stats[39m
+[2026-06-15 14:50:00:500] [[35mhttp[39m]: [35mGET /api/v1/dashboard/stats[39m
+[2026-06-15 14:50:05:505] [[35mhttp[39m]: [35mPOST /api/v1/auth/login[39m
+[2026-06-15 14:50:05:505] [[32minfo[39m]: [32mUser login attempt for email: admin@social-connect.com[39m
+[2026-06-15 14:50:05:505] [[35mhttp[39m]: [35mGET /api/v1/dashboard/stats[39m
+[2026-06-15 14:50:06:506] [[35mhttp[39m]: [35mGET /api/v1/dashboard/stats[39m
+[2026-06-15 14:50:16:5016] [[35mhttp[39m]: [35mGET /api/v1/leaves?page=1&limit=6&status=ALL[39m
+[2026-06-15 14:50:16:5016] [[35mhttp[39m]: [35mGET /api/v1/leaves?page=1&limit=6&status=ALL[39m
+[2026-06-15 14:50:20:5020] [[35mhttp[39m]: [35mGET /api/v1/dashboard/stats[39m
+[2026-06-15 14:50:20:5020] [[35mhttp[39m]: [35mGET /api/v1/dashboard/stats[39m
+[2026-06-15 14:50:22:5022] [[35mhttp[39m]: [35mGET /api/v1/leaves?page=1&limit=6&status=ALL[39m
+[2026-06-15 14:50:22:5022] [[35mhttp[39m]: [35mGET /api/v1/leaves?page=1&limit=6&status=ALL[39m
+[2026-06-15 14:50:23:5023] [[35mhttp[39m]: [35mGET /api/v1/dashboard/stats[39m
+[2026-06-15 14:50:23:5023] [[35mhttp[39m]: [35mGET /api/v1/dashboard/stats[39m
+[2026-06-15 14:50:30:5030] [[35mhttp[39m]: [35mGET /api/v1/leaves?page=1&limit=6&status=ALL[39m
+[2026-06-15 14:50:30:5030] [[35mhttp[39m]: [35mGET /api/v1/leaves?page=1&limit=6&status=ALL[39m
+[2026-06-15 14:50:33:5033] [[35mhttp[39m]: [35mGET /api/v1/leaves?page=1&limit=6&status=PENDING_MANAGER[39m
+[2026-06-15 14:50:35:5035] [[35mhttp[39m]: [35mGET /api/v1/leaves?page=1&limit=6&status=APPROVED[39m
+[2026-06-15 14:50:37:5037] [[35mhttp[39m]: [35mGET /api/v1/leaves?page=1&limit=6&status=REJECTED[39m
+[2026-06-15 14:50:37:5037] [[35mhttp[39m]: [35mGET /api/v1/dashboard/stats[39m
+[2026-06-15 14:50:37:5037] [[35mhttp[39m]: [35mGET /api/v1/dashboard/stats[39m
+[2026-06-15 14:50:41:5041] [[35mhttp[39m]: [35mPOST /api/v1/auth/logout[39m
+[2026-06-15 14:51:02:512] [[35mhttp[39m]: [35mGET /api/v1/masters/departments[39m
+[2026-06-15 14:51:02:512] [[35mhttp[39m]: [35mGET /api/v1/employees?page=1&limit=8&search=&departmentId=[39m
+[2026-06-15 14:51:02:512] [[35mhttp[39m]: [35mGET /api/v1/masters/departments[39m
+[2026-06-15 14:51:02:512] [[35mhttp[39m]: [35mGET /api/v1/employees?page=1&limit=8&search=&departmentId=[39m
+[2026-06-15 14:51:02:512] [[35mhttp[39m]: [35mGET /api/v1/leaves?page=1&limit=6&status=ALL[39m
+[2026-06-15 14:51:02:512] [[35mhttp[39m]: [35mGET /api/v1/leaves?page=1&limit=6&status=ALL[39m
+[2026-06-15 14:51:03:513] [[35mhttp[39m]: [35mGET /api/v1/masters/departments[39m
+[2026-06-15 14:51:03:513] [[35mhttp[39m]: [35mGET /api/v1/employees?page=1&limit=8&search=&departmentId=[39m
+[2026-06-15 14:51:03:513] [[35mhttp[39m]: [35mGET /api/v1/masters/departments[39m
+[2026-06-15 14:51:03:513] [[35mhttp[39m]: [35mGET /api/v1/employees?page=1&limit=8&search=&departmentId=[39m
+[2026-06-15 14:54:02:542] [[32minfo[39m]: [32mSMTP transporter configured.[39m
+[2026-06-15 14:54:02:542] [[32minfo[39m]: [32mCron jobs scheduled successfully.[39m
+[2026-06-15 14:54:02:542] [[32minfo[39m]: [32mServer is running in development mode on port 5001[39m
+[2026-06-15 14:54:02:542] [[32minfo[39m]: [32mDatabase connected successfully.[39m
+[2026-06-15 14:54:06:546] [[32minfo[39m]: [32mSMTP transporter configured.[39m
+[2026-06-15 14:54:06:546] [[32minfo[39m]: [32mCron jobs scheduled successfully.[39m
+[2026-06-15 14:54:06:546] [[32minfo[39m]: [32mServer is running in development mode on port 5001[39m
+[2026-06-15 14:54:06:546] [[32minfo[39m]: [32mDatabase connected successfully.[39m
+[2026-06-15 15:28:43:2843] [[35mhttp[39m]: [35mGET /api/v1/masters/departments[39m
+[2026-06-15 15:28:43:2843] [[35mhttp[39m]: [35mGET /api/v1/employees?page=1&limit=8&search=&departmentId=[39m
+[2026-06-15 15:28:43:2843] [[35mhttp[39m]: [35mGET /api/v1/masters/departments[39m
+[2026-06-15 15:28:43:2843] [[35mhttp[39m]: [35mGET /api/v1/employees?page=1&limit=8&search=&departmentId=[39m
+[2026-06-15 15:28:43:2843] [[35mhttp[39m]: [35mPOST /api/v1/auth/refresh[39m
+[2026-06-15 15:28:44:2844] [[35mhttp[39m]: [35mGET /api/v1/masters/departments[39m
+[2026-06-15 15:28:44:2844] [[35mhttp[39m]: [35mGET /api/v1/employees?page=1&limit=8&search=&departmentId=[39m
+[2026-06-15 15:28:44:2844] [[35mhttp[39m]: [35mGET /api/v1/masters/departments[39m
+[2026-06-15 15:28:44:2844] [[35mhttp[39m]: [35mGET /api/v1/employees?page=1&limit=8&search=&departmentId=[39m
+[2026-06-15 15:31:45:3145] [[35mhttp[39m]: [35mGET /api/v1/masters/departments[39m
+[2026-06-15 15:31:45:3145] [[35mhttp[39m]: [35mGET /api/v1/employees?page=1&limit=8&search=&departmentId=[39m
+[2026-06-15 15:31:45:3145] [[35mhttp[39m]: [35mGET /api/v1/masters/departments[39m
+[2026-06-15 15:31:45:3145] [[35mhttp[39m]: [35mGET /api/v1/employees?page=1&limit=8&search=&departmentId=[39m
+[2026-06-15 15:35:16:3516] [[35mhttp[39m]: [35mGET /api/v1/masters/departments[39m
+[2026-06-15 15:35:16:3516] [[35mhttp[39m]: [35mGET /api/v1/employees?page=1&limit=8&search=&departmentId=[39m
+[2026-06-15 15:35:16:3516] [[35mhttp[39m]: [35mGET /api/v1/masters/departments[39m
+[2026-06-15 15:35:16:3516] [[35mhttp[39m]: [35mGET /api/v1/employees?page=1&limit=8&search=&departmentId=[39m
+[2026-06-15 16:09:41:941] [[35mhttp[39m]: [35mGET /api/v1/masters/departments[39m
+[2026-06-15 16:09:41:941] [[35mhttp[39m]: [35mGET /api/v1/employees?page=1&limit=8&search=&departmentId=[39m
+[2026-06-15 16:09:41:941] [[35mhttp[39m]: [35mGET /api/v1/masters/departments[39m
+[2026-06-15 16:09:41:941] [[35mhttp[39m]: [35mPOST /api/v1/auth/refresh[39m
+[2026-06-15 16:09:41:941] [[35mhttp[39m]: [35mGET /api/v1/employees?page=1&limit=8&search=&departmentId=[39m
+[2026-06-15 16:09:41:941] [[35mhttp[39m]: [35mGET /api/v1/masters/departments[39m
+[2026-06-15 16:09:41:941] [[35mhttp[39m]: [35mGET /api/v1/employees?page=1&limit=8&search=&departmentId=[39m
+[2026-06-15 16:09:41:941] [[35mhttp[39m]: [35mGET /api/v1/masters/departments[39m
+[2026-06-15 16:09:41:941] [[35mhttp[39m]: [35mGET /api/v1/employees?page=1&limit=8&search=&departmentId=[39m
+[2026-06-15 16:30:49:3049] [[35mhttp[39m]: [35mGET /api/v1/masters/departments[39m
+[2026-06-15 16:30:49:3049] [[35mhttp[39m]: [35mGET /api/v1/masters/skills[39m
+[2026-06-15 16:30:49:3049] [[35mhttp[39m]: [35mGET /api/v1/masters/departments[39m
+[2026-06-15 16:30:49:3049] [[35mhttp[39m]: [35mGET /api/v1/masters/skills[39m
+[2026-06-15 16:30:49:3049] [[35mhttp[39m]: [35mPOST /api/v1/auth/refresh[39m
+[2026-06-15 16:30:49:3049] [[35mhttp[39m]: [35mGET /api/v1/masters/departments[39m
+[2026-06-15 16:30:49:3049] [[35mhttp[39m]: [35mGET /api/v1/masters/skills[39m
+[2026-06-15 16:30:49:3049] [[35mhttp[39m]: [35mGET /api/v1/masters/departments[39m
+[2026-06-15 16:30:49:3049] [[35mhttp[39m]: [35mGET /api/v1/masters/skills[39m
+[2026-06-15 16:49:52:4952] [[35mhttp[39m]: [35mGET /api/v1/masters/departments[39m
+[2026-06-15 16:49:52:4952] [[35mhttp[39m]: [35mGET /api/v1/masters/skills[39m
+[2026-06-15 16:49:52:4952] [[35mhttp[39m]: [35mGET /api/v1/masters/departments[39m
+[2026-06-15 16:49:52:4952] [[35mhttp[39m]: [35mGET /api/v1/masters/skills[39m
+[2026-06-15 16:49:52:4952] [[35mhttp[39m]: [35mPOST /api/v1/auth/refresh[39m
+[2026-06-15 16:49:53:4953] [[35mhttp[39m]: [35mGET /api/v1/masters/departments[39m
+[2026-06-15 16:49:53:4953] [[35mhttp[39m]: [35mGET /api/v1/masters/skills[39m
+[2026-06-15 16:49:53:4953] [[35mhttp[39m]: [35mGET /api/v1/masters/departments[39m
+[2026-06-15 16:49:53:4953] [[35mhttp[39m]: [35mGET /api/v1/masters/skills[39m
