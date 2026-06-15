@@ -2,8 +2,11 @@
 # Build Stage
 # =========================
 FROM node:22-slim AS builder
+RUN apt-get update && \
+    apt-get install -y openssl && \
+    rm -rf /var/lib/apt/lists/*
 ARG CACHE_BUST=999
-RUN echo "BUILD VERSION ${CACHE_BUST}"
+RUN echo "BUILD VERSION 999
 WORKDIR /usr/src/app
 
 # Install dependencies
