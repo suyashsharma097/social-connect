@@ -22,8 +22,7 @@ RUN rm -rf node_modules/.prisma
 RUN npx prisma generate --schema=./prisma/schema.prisma
 
 # Debug: show generated Prisma engine
-RUN ls -la node_modules/.prisma/client
-
+RUN find node_modules/.prisma -type f
 # =========================
 # Production Stage
 # =========================
